@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>布局</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="css/2.css">
+	<link rel="stylesheet" type="text/css" href="iconfont/font_1167493_v0fyiavu3gf/iconfont.css">
+	<script type="text/javascript" src="js/swiper.min.js"></script>
+</head>
+<body>
+	<div class="box">
+
+		<!-- top开始 -->
+		<div class="top">
+			<img src="images/2_1_logo.jpg" width="160" height="51" alt="">
+			<ul>
+				<li><a  class="menu_1" href="#">首页</a></li>
+				<li><a href="#">解决方案</a></li>
+				<li><a href="#">咨询中心</a></li>
+				<li><a href="#">案例展示</a></li>
+				<li><a href="#">了解牛牛豆</a></li>
+			</ul>
+		</div>
+		<!-- top结束 -->
+
+
+		<!-- lunbo开始 -->
+		<div class="lunbo swiper-container">
+			<div class="lunbo_1 swiper-wrapper">
+				<div class="lunbo_2 swiper-slide">
+					<img src="images/2_2_1.gif" alt="">
+					<div class="wenzi">
+						<h1>我们拥有专业的网络建设团队</h1>
+						<h2>拥有成熟的电子商务解决方案</h2>
+						<p>We have a professional network construction team
+						Have mature e-commerce solutions</p>
+						<button>LEARN MORE</button>
+					</div>
+				</div>
+				<div class="lunbo_2 swiper-slide">
+					<img src="images/2_2_1.gif" alt="">
+					<div class="wenzi">
+						<h1>我们拥有专业的网络建设团队</h1>
+						<h2>拥有成熟的电子商务解决方案</h2>
+						<p>We have a professional network construction team
+						Have mature e-commerce solutions</p>
+						<button>LEARN MORE</button>
+					</div>
+				</div>
+				<div class="lunbo_2 swiper-slide">
+					<img src="images/2_2_1.gif" alt="">
+					<div class="wenzi">
+						<h1>我们拥有专业的网络建设团队</h1>
+						<h2>拥有成熟的电子商务解决方案</h2>
+						<p>We have a professional network construction team
+						Have mature e-commerce solutions</p>
+						<button>LEARN MORE</button>
+					</div>
+				</div>
+			</div>
+			<div class="lunbo_3 swiper-pagination"></div>
+		</div>
+		<!-- lunbo结束 -->
+
+		<!-- main开始 -->
+		<div class="main">
+			
+		</div>
+		<!-- main结束 -->
+
+		<!-- yejiao开始 -->
+		<div class="yejiao">
+			<div class="left">
+				<h1>24</h1>
+				<h2>小时免费咨询热线</h2>
+				<h3>400-889-7654</h3>
+			</div>
+			<dic class="sanjiao"></dic>
+			<div class="you">
+				<ul>
+					<li><a href="#">解决方案</a></li>
+					<li>/</li>
+					<li><a href="#">咨询中心</a></li>
+					<li>/</li>
+					<li><a href="#">案例展示</a></li>
+					<li>/</li>
+					<li><a href="#">了解牛牛豆</a></li>
+				</ul>
+				<p class="yejiao_1">
+					<span class="shiliantu">
+						<i class="iconfont">&#xe655;</i>
+					</span>
+					广州市海珠区广州大道南448号财智大厦28楼
+				</p>
+				<p>
+					<span  class="shiliantu">©</span>
+					<span>广州牛牛豆网络科技有限公司版权所有</span>
+					<span>Copyright 2009-2015 ,All Rights Reserved wengdo</span>
+				</p>
+				<p class="yejiao_2">粤ICP备12022584号-3法律顾问：广东晟晨律师事务所-张勇律师</p>
+			</div>
+		</div>
+		<!-- yejiao结束 -->
+	</div>
+	<script type="text/javascript">
+		var mySwiper = new Swiper('.swiper-container', {
+		      slidesPerView: 1,
+		      spaceBetween: 0,
+		      loop: true,
+		      autoplay: {
+			     delay: 2000,
+			     disableOnInteraction: false,
+			  },
+		      pagination: {
+		        el: '.swiper-pagination',
+		        clickable: true,
+		      },
+		      navigation: {
+		        nextEl: '.swiper-button-next',
+		        prevEl: '.swiper-button-prev',
+		      },
+	    });
+		 mySwiper.el.onmouseover = function(){
+		  	mySwiper.autoplay.stop();
+		}
+
+		mySwiper.el.onmouseout = function(){
+		  	mySwiper.autoplay.start();
+		}
+	</script>
+</body>
+</html>

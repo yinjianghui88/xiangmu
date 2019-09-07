@@ -1,0 +1,237 @@
+.box{
+	width: 1440px;
+	height: 500px;
+	margin: 0 auto;
+}
+/* top开始 */
+.box > .top{
+	height: 110px;
+	line-height: 110px;
+}
+.box > .top > img{
+	margin-left: 265px;
+	margin-top: 32px;
+}
+.box > .top > ul{
+	width: 455px;
+	float: right;
+	margin-right: 355px;
+	display: flex;
+	justify-content: space-around;
+}
+.box > .top > ul li a{
+	color: #000;
+	padding: 10px 5px;
+	font-size: 16px;
+}
+.box > .top > ul .menu_1{
+	border-bottom: 2px solid #FFE800;
+}
+/* top结束 */
+
+/* lunbo开始 */
+.box > .lunbo{
+	height: 500px;
+	background: #f6ce2a;
+	position: relative;
+}
+.box > .lunbo >.lunbo_1 > .lunbo_2 img{
+	width: 362px;
+	height: 336px;
+	position: absolute;
+	left: 287px;
+	top: 80px;
+}
+.box > .lunbo >.lunbo_1 > .lunbo_2 .wenzi{
+	position: absolute;
+	left: 726px;
+	top: 150px;
+	color: #fff;
+}
+.box > .lunbo >.lunbo_1 > .lunbo_2 .wenzi h1{
+	font-size: 36px;
+	opacity: .9;
+	font-weight: 600;
+}
+.box > .lunbo >.lunbo_1 > .lunbo_2 .wenzi h2{
+	font-weight: 200;
+	font-size: 36px;
+	opacity: .8;
+	margin-top: 15px;
+}
+.box > .lunbo >.lunbo_1 > .lunbo_2 .wenzi p{
+	margin-top: 20px;
+	font-weight: 200;
+	font-size: 14px;
+	width: 350px;
+	opacity: .7;
+}	
+.box > .lunbo >.lunbo_1 > .lunbo_2 .wenzi button{
+	width: 140px;
+	height: 49px;
+	border: 1px solid #fff;
+	background: none;
+	color: #fff;
+	opacity: .9;
+	font-size: 18px;
+	margin-top: 24px;
+}
+.box > .lunbo > .lunbo_3 span{
+	width: 50px;
+	height: 5px;
+	border-radius: 0;
+	background: #E5E5E5;
+}
+/* lunbo结束 */
+
+
+/* main 开始 */
+.box > .main{
+	/*height: 100px;*/
+	width: 80%;
+	/*border: 1px solid red;*/
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.main .nav{
+	width: 40%;
+	height: 40px;
+	/*border: 1px solid red;*/
+	display: flex;
+    /*margin:0 auto;*/
+	justify-content: space-between;
+
+
+
+}
+.nav> p{
+color: #aaa;
+
+}
+
+.main .picture>h1{
+	margin: 0 auto;
+	font-size: 30px ;
+	font-family: '微软雅黑';
+		font-weight: bold;
+
+}
+.picture>hr{
+	margin: 0 auto;
+	width: 10%;
+	
+	height: 3px;
+	background-color: orange;
+
+
+}
+.picture ul{
+	margin-top: 75px;
+	margin-bottom: 70px;
+color: #aaa;
+}
+
+.navlast{
+	width:60%;
+	 margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+
+
+}
+.navlast>p{
+	font-size: 30px;
+	color: #666;
+	font-weight:linear; 
+}
+/* main 结束 */
+
+
+/* yejiao 开始 */
+.box > .yejiao{
+	background: #333333;
+	height: 330px;
+	position: relative;
+}
+.box > .yejiao > .you{
+	position: absolute;
+	left: 585px;
+	top: 60px;
+
+}
+.box > .yejiao > .you ul{
+	width: 425px;
+	display: flex;
+	justify-content: space-between;
+}
+.box > .yejiao > .you ul li {
+	color: #C8C8C8;
+}
+.box > .yejiao > .you ul li a{
+	color: #BDBDBD;
+	font-size: 16px;
+}
+.box > .yejiao > .you .yejiao_1{
+	font-size: 16px;
+	margin: 50px 0 20px 0;
+	color: #797979;
+}
+.box > .yejiao > .you p{
+	font-size: 16px;
+	color: #797979;
+}
+.box > .yejiao > .you .yejiao_2{
+	width: 430px;
+	border-radius: 15px;
+	font-size: 14px;
+	background: #2a2a2a;
+	margin-top: 35px;
+	color: #797979;
+}
+.box > .yejiao > .you .shiliantu{
+	margin-right: 7px;
+}
+.box > .yejiao > .left{
+	position: absolute;
+	left: 205px;
+	top: -10px;
+	z-index: 2;
+	width: 280px;
+	height: 340px;
+	background: url('../images/2_2_yejiao.gif') no-repeat;
+}
+.box > .yejiao > .left > h1{
+	color: #fff;
+	font-weight: 500;
+	font-size: 60px;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+.box > .yejiao > .left > h2{
+	color: #fff;
+	opacity: 0.9;
+	font-weight: 200;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+.box > .yejiao > .left > h3{
+	color: #fff;
+	font-size: 30px;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+.box > .yejiao > .sanjiao{
+	position: absolute;
+	left: 483px;
+	top: -10px;
+	z-index: 2;
+	width: 0;
+    height: 0;
+    border-top:7px solid transparent;
+    border-bottom:7px solid transparent;
+    border-right:7px solid #f6ce2a;
+    transform: rotateZ(-45deg);
+}
+/* yejiao 结束 */
